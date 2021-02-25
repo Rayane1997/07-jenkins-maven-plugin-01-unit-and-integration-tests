@@ -5,7 +5,7 @@ pipeline{
             steps{
                
               git url: 'https://github.com/Rayane1997/jenkins.git',
-                  branch: 'master'
+              branch: 'master'
                
             }            
         }
