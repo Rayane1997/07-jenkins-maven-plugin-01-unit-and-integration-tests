@@ -6,10 +6,10 @@ pipeline{
     stages{
         stage("Checkout Code from SCM"){
             steps{
-            { 
+
               git url: 'https://github.com/Rayane1997/jenkins.git', branch: 'master'
                
-            }            
+                 }            
         }
          stage("Clean Up"){
             steps{
