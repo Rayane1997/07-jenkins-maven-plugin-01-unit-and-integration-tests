@@ -4,7 +4,7 @@ pipeline{
         stage("Checkout Code from SCM"){
             steps{
                
-              git url: 'https://github.com/mromdhani/jenkins-maven-plugin-01-simplepipline',
+              git url: 'https://github.com/Rayane1997/jenkins.git',
                   branch: 'master'
                
             }            
