@@ -4,13 +4,7 @@ pipeline{
           maven 'my-maven-3' 
       }
     stages{
-        stage("Checkout Code from SCM"){
-            steps{
-
-              git url: 'https://github.com/Rayane1997/jenkins', branch: 'master', credentialsId: 'git_key'
-               
-                 }            
-        }
+    
          stage("Clean Up"){
             steps{
                sh 'mvn clean ';
